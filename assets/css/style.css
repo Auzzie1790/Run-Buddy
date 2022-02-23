@@ -70,7 +70,7 @@ Section {
     padding: 60px;
 }
 
-/* Hero Style Start */
+/* HERO STYLES START */
 .hero {
     background-image: url(/Users/austinfb/Desktop/projects/run-buddy/assets/Images/hero-bg.jpeg);
     height: 600px;
@@ -78,7 +78,6 @@ Section {
     background-position: Center;
     position: relative;
 }
-/* Hero Style End */
 
 .hero-form {
     background-color:#fce138;
@@ -92,3 +91,35 @@ Section {
     Bottom: 120px;
     Right: 120px;
 }
+
+.hero-form h3 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.hero-form p {
+    margin: 5px 0 15px 0;
+}
+
+.form-input {
+    border: 1px solid #024e76;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: #024e76;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.hero-form label {
+margin: 0px;
+}
+
+.hero-form button {
+    color: #fce138;
+    background-color: #024e76;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+/* HERO STYLES END */
